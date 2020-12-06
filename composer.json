@@ -1,0 +1,29 @@
+{
+    "name": "nikitadocenko/algorithms",
+    "type": "project",
+    "description": "Exercises to prepare for an interview",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nikita.dotsenko",
+            "email": "indahazzard@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "codedungeon/phpunit-result-printer": "0.26.2",
+        "spatie/phpunit-watcher": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exercises\\": "exercises/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
