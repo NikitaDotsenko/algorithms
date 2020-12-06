@@ -9,11 +9,6 @@ namespace Exercises\Queue;
  *
  * When queue is empty remove and peek methods should return null.
  *
- * @property mixed[] $queue
- * @method void add(mixed $value)
- * @method mixed|null remove()
- * @method mixed|null peek()
- * @method static self zip(self ...$queues) interweaves two provided queues
  * @example $queue1 = new Queue();
  * $queue1->add(1);
  * $queue1->add(2);
