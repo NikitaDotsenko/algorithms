@@ -20,7 +20,18 @@ namespace Exercises\Stack;
  */
 final class Stack
 {
-    private $stack  = [];
+    /**
+     * Stack.
+     *
+     * @var array
+     */
+    private $stack = [];
+
+    /**
+     * Cursor.
+     *
+     * @var int
+     */
     private $cursor = 0;
 
     /**
