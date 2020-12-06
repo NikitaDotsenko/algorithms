@@ -18,7 +18,7 @@ namespace Exercises\Stack;
  * $stack->peek() === 1;
  * $stack->pop() === 1;
  */
-final class Stack
+class Stack
 {
     /**
      * Stack.
