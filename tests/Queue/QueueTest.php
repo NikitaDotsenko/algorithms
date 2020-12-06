@@ -8,11 +8,19 @@ use Exercises\Queue\Queue;
 use PHPUnit\Framework\TestCase;
 use function method_exists;
 
+/**
+ * Class QueueTest
+ *
+ * @package Tests\Queue\
+ */
 class QueueTest extends TestCase
 {
     /** @var Queue */
     private $queue;
 
+    /**
+     * Initial test data.
+     */
     protected function setUp(): void
     {
         $this->queue = new Queue();

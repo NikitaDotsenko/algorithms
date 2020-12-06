@@ -9,9 +9,6 @@ namespace Exercises\Stack;
  *
  * When stack is empty pop and peek methods should return null.
  *
- * @method void push(int $value)
- * @method mixed|null pop()
- * @method mixed|null peek()
  * @example $stack = new Stack();
  * $stack->push(1);
  * $stack->push(2);
