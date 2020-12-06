@@ -1,0 +1,7 @@
+watch:
+  directories:
+    - exercises
+    - tests
+  fileMask: '*.php'
+phpunit:
+  binaryPath: ./vendor/phpunit/phpunit/phpunit
